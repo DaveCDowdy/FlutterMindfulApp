@@ -1,0 +1,63 @@
+# Flutter/Dart related
+# -----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# The pubspec.lock file (Ignored for apps, kept for packages)
+pubspec.lock
+
+# Android related
+# -----------------------
+android/local.properties
+android/gen/
+android/generated/
+android/app/src/main/res/drawable-*/
+android/app/src/main/res/mipmap-*/
+*.iml
+*.ipr
+*.iws
+.gradle/
+.idea/
+
+# iOS related
+# -----------------------
+ios/Pods/
+ios/.generated/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcscheme
+*.xcuserstate
+Pods/
+Podfile.lock
+
+# Sembast / Database (Local testing files)
+# -----------------------
+*.db
+*.db_tmp
+
+# Miscellaneous
+# -----------------------
+.DS_Store
+*.log
+doc/api/
