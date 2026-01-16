@@ -1,5 +1,6 @@
-📝 Mindful App
-A sleek, minimalist Flutter application designed to provide daily inspiration and a personalized mindfulness experience. This project demonstrates core Flutter concepts, including NoSQL local databases, persistent user settings, and custom UI layouts.
+📖 About This Project
+This app was developed as a "code-along" project during the Flutter Fundamentals course by Simone Alessandria.
+While following the course's core architecture, I implemented several key features to solidify my understanding of the Flutter framework, specifically focusing on how data flows from a local persistence layer up to the UI.
 
 🚀 Key Features
 Personalized Experience: Users can save their name and select a background theme (Lake, Mountain, etc.) which persists across app restarts.
@@ -13,19 +14,13 @@ Shared Preferences: Used for lightweight key-value storage of user preferences.
 Dynamic UI: Backgrounds and greetings update dynamically based on user data.
 
 🛠️ Tech Stack & Learning Objectives
-This project was built to master the following Flutter/Dart concepts:
-
-Stateful Lifecycle: Managing app state and loading data during initState.
-
-Data Modeling: Creating robust Data Models with fromJson and toMap capabilities.
-
-Asynchronous Programming: Handling Future and async/await for database operations.
-
-Asset Management: Handling local image assets and dynamic pathing.
+* Course: Flutter Fundamentals (Simone Alessandria)
+* Data Persistence: * Sembast: Implemented a NoSQL database to handle quote storage, demonstrating a "Singleton" pattern for the database helper.
+    * Shared Preferences: Used for storing simple user configuration (Name and Background selection).
+* Architecture: Followed a clean separation of concerns by splitting the project into data, screens, and models.
+* Asynchronous Logic: Managed data initialization using Future and async/await patterns within the Widget lifecycle.
 
 📂 Project Structure
-Plaintext
-
 lib/
 ├── data/
 │   ├── db_helper.dart    # Sembast NoSQL implementation
