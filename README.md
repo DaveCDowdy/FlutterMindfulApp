@@ -30,6 +30,7 @@ lib/
 │   ├── intro_screen.dart # User onboarding & theme selection
 │   └── quote_screen.dart # Quote display logic
 └── main.dart             # App entry point & Root widget
+
 ⚙️ Installation & Setup
 Clone the repository:
 
